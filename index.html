@@ -192,43 +192,69 @@
     // DEFINE THE SONG WITH ARTIST, THE IMG MUST BE END WITH “.jpg” AND THE PATH MUST BE END WITH “.mp3”
     let track_list = [
       {
-        name: "Apocalypse",
-        artist: "Cigarettes After Sex",
+        name: "𝐀𝐩𝐨𝐜𝐚𝐥𝐲𝐩𝐬𝐞",
+        artist: "𝐂𝐢𝐠𝐚𝐫𝐞𝐭𝐭𝐞𝐬 𝐀𝐟𝐭𝐞𝐫 𝐒𝐞𝐱",
         image: "https://i.postimg.cc/28Kp9t1N/images.jpg",
         path: "musics/apocalypse.mp3"
       },
       {
-        name: "K.",
-        artist: "Cigarettes After Sex",
-        image: "https://i.postimg.cc/nhDYm3g1/images-1.jpg",
-        path: "musics/k..mp3"
-      },
-      {
-        name: "Hangin",
-        artist: "Yno",
-        image: "https://i.postimg.cc/rpDjf8D5/images.jpg",
-        path: "musics/hangin.mp3"
+        name: "𝐒𝐞𝐬𝐚𝐦𝐞 𝐒𝐲𝐫𝐮𝐩",
+        artist: "𝐂𝐢𝐠𝐚𝐫𝐞𝐭𝐭𝐞𝐬 𝐀𝐟𝐭𝐞𝐫 𝐒𝐞𝐱",
+        image: "https://i.postimg.cc/YS9wXG9M/a03131f534b3aa03d5a4fc504b5e866b.jpg",
+        path: "musics/sesame-syrup.mp3"
     },
       {
-        name: "Sure Thing",
-        artist: "Miguel",
-        image: "https://i.postimg.cc/fWd8mTdd/images-2.jpg",
-        path: "musics/sure-thing.mp3"
+        name: "𝐀𝐫𝐚𝐰-𝐀𝐫𝐚𝐰",
+        artist: "𝐁𝐞𝐧&𝐁𝐞𝐧",
+        image: "https://i.postimg.cc/dVk3d4XF/8d07806fccfe72c030e345f61c90ec0e.jpg",
+        path: "musics/araw-araw.mp3"
+      },
+      {
+        name: "𝐒𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐀𝐛𝐨𝐮𝐭 𝐘𝐨𝐮",
+        artist: "𝐄𝐲𝐞𝐝𝐫𝐞𝐬𝐬",
+        image: "https://i.postimg.cc/JzjbWrQS/24307c63e9100ed5b9617e7ae8406ea2.jpg",
+        path: "musics/smthabtu.mp3"
+    },
+      {
+        name: "𝐎𝐍𝐋𝐘",
+        artist: "𝐋𝐞𝐞 𝐇𝐢",
+        image: "https://i.postimg.cc/m2yYjhJd/3341879b84eacca074814e097633e119.jpg",
+        path: "musics/only.mp3"
         },
       {
-        name: "Get You",
-        artist: "Daniel Caesar",
+        name: "𝐆𝐞𝐭 𝐘𝐨𝐮",
+        artist: "𝐃𝐚𝐧𝐢𝐞𝐥 𝐂𝐚𝐞𝐬𝐚𝐫",
         image: "https://i.postimg.cc/rF1cnkB0/images-3.jpg",
         path: "musics/get-you.mp3",
       
       },
       {
-        name: "Cupid’s Chokehold",
-        artist: "Gym Class Heroes",
+        name: "𝐂𝐮𝐩𝐢𝐝’𝐬 𝐂𝐡𝐨𝐤𝐞𝐡𝐨𝐥𝐝",
+        artist: "𝐆𝐲𝐦 𝐂𝐥𝐚𝐬𝐬 𝐇𝐞𝐫𝐨𝐞𝐬",
         image: "https://i.postimg.cc/Yq5GgM1v/images-4.jpg",
         path: "musics/cupid's-chokehold.mp3",
       
       },
+      {
+        name: "𝐂𝐨𝐧𝐠𝐫𝐚𝐭𝐮𝐥𝐚𝐭𝐢𝐨𝐧𝐬",
+        artist: "𝐌𝐚𝐜 𝐌𝐢𝐥𝐥𝐞𝐫",
+        image: "https://i.postimg.cc/JnJDn4XV/ef4a68e0fabb708ff8f0c25b069ec36e.jpg",
+        path: "musics/congratulations.mp3",
+      
+      },
+      {
+        name: "𝐇𝐚𝐧𝐠𝐢𝐧",
+        artist: "𝐘𝐧𝐨",
+        image: "https://i.postimg.cc/rpDjf8D5/images.jpg",
+        path: "musics/hangin.mp3",
+      
+      },
+      {
+        name: "𝐒𝐮𝐫𝐞 𝐓𝐡𝐢𝐧𝐠",
+        artist: "𝐌𝐢𝐠𝐮𝐞𝐥",
+        image: "https://i.postimg.cc/fWd8mTdd/images-2.jpg",
+        path: "musics/sure-thing.mp3"
+      }
     ];
 
     function loadTrack(track_index) {
@@ -243,7 +269,7 @@
       track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
       track_name.textContent = track_list[track_index].name;
       track_artist.textContent = track_list[track_index].artist;
-      now_playing.textContent = " PLAYING " + (track_index + 1) + " OF " + track_list.length;
+      now_playing.textContent = " 𝐂𝐎𝐃𝐄𝐃 𝐁𝐘 𝐗𝐄𝐍, 𝐒𝐎𝐍𝐆 " + (track_index + 1) + " 𝐎𝐅 " + track_list.length;
 
       // Set an interval of 1000 milliseconds for updating the seek slider
       updateTimer = setInterval(seekUpdate, 1000);
